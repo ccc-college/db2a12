@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS study;
+CREATE DATABASE study DEFAULT CHARACTER SET utf8mb4;
+use study;
+
 /*  サーバールームへの入退室管理テーブル  accroom
  rdate: 入室した日付
  exitroom:  NULL:入室中、1:退室済み
