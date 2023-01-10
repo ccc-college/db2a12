@@ -1,5 +1,5 @@
-DROP DATABASE IF EXISTS study;
-CREATE DATABASE study DEFAULT CHARACTER SET utf8mb4;
+/* DROP DATABASE IF EXISTS study;  */
+CREATE DATABASE IF NOT EXISTS study CHARACTER SET utf8mb4;
 use study;
 
 /*  サーバールームへの入退室管理テーブル  accroom
